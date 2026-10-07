@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Spendees</string>
+    <string name="nav_quick_add">Quick Add</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+</resources>

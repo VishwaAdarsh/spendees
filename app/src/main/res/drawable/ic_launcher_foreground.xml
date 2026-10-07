@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Group centered strictly in 66dp safe zone (21dp to 87dp) -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Golden Outer Coin / Token ring -->
+        <path
+            android:fillColor="#FFC837"
+            android:pathData="M54,26 C38.54,26 26,38.54 26,54 C26,69.46 38.54,82 54,82 C69.46,82 82,69.46 82,54 C82,38.54 69.46,26 54,26 Z M54,76 C41.85,76 32,66.15 32,54 C32,41.85 41.85,32 54,32 C66.15,32 76,41.85 76,54 C76,66.15 66.15,76 54,76 Z" />
+        <!-- Inner Card / Wallet silhouette with Rupee/Dollar minimalist curved mark -->
+        <!-- Wallet Base Plate -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M37,42 C37,39.79 38.79,38 41,38 L67,38 C69.21,38 71,39.79 71,42 L71,66 C71,68.21 69.21,70 67,70 L41,70 C38.79,70 37,68.21 37,66 Z" />
+        <!-- Wallet Flap Accent -->
+        <path
+            android:fillColor="#0B2E28"
+            android:pathData="M37,45 L71,45 L71,49 L37,49 Z" />
+        <!-- Wallet Clasp with Sparkle -->
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M59,51 C59,49.9 59.9,49 61,49 L68,49 C69.1,49 70,49.9 70,51 L70,57 C70,58.1 69.1,59 68,59 L61,59 C59.9,59 59,58.1 59,57 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M64,52 A2,2 0 1,0 64,56 A2,2 0 1,0 64,52" />
+        <!-- Dynamic Spending Growth / Track Arrow inside wallet -->
+        <path
+            android:fillColor="#0F9D58"
+            android:pathData="M43,62 L48,57 L52,60 L57,53 L55,53 L55,51 L60,51 L60,56 L58,56 L58,54.5 L52,62 L48,59 L44.5,63.5 Z" />
+    </group>
+</vector>
